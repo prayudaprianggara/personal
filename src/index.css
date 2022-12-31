@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bar, .close {
+    @apply hover:cursor-pointer
+  }
+
+  
+}
